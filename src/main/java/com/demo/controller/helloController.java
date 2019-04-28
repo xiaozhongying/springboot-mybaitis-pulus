@@ -8,6 +8,7 @@ public class helloController {
 
     @RequestMapping("/hello")
     public String hello(){
+        int a =1;
         return "hello11";
 
     }
